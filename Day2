@@ -1,0 +1,68 @@
+// Array example
+
+let sugar = "craving"
+let glukose = "energySource"
+let insulin = "dealAgent"
+let sugarCrash = [sugar, glukose, insulin]
+
+let pythons = ["Romen", "Sally", "Creem", "Josh", "Lika", "Josh"]
+
+var teams = [String:string]()
+teams["Josh"]= "Yellow"
+
+var score = [Int]()
+score ["Red"] = "34"
+score ["Green"] = "57"
+
+// Scope example
+
+let sugarCrashFeel = [(sugar, glukose, sugar, insulin, insulin)]
+
+let set = (["soulseeker", "nerder", "smertol", "ellior"])
+
+var words = set <String> ()
+var numbers = set <Int> ()
+
+// Tuples example
+
+var user = ( name: "Josh", age: 39, height: 183, weight: 86, isMerried: true )
+user.age
+
+let address = (house: 456, street: "Crashmere", city: "Versille") 
+
+//Dictionaries
+
+var directors = [ "Cameron": "Avatar", "Nolan": "Interstellar")
+
+let favoriteIceCream [ 
+"Kate": "Vanilla", 
+"Josh": "Grape" 
+]
+favoriteIceCream ["Frank", default: "unknown"] 
+
+// Enums
+
+enum Result {
+case success
+case failure
+}
+
+let result1 = Result.success
+
+enum Activity {
+case Running (Speed: Int)
+case Singing (Song: String)
+case Painting (Style: String)
+case Writing
+}
+
+let Singing = Activity.Singing (Song: "Don't try so hard")
+
+enum Mood: Int {
+case happy = 1
+case sad 
+case excited
+case gloomy
+case dreamy 
+}
+
